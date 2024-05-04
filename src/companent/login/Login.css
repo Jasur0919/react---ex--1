@@ -1,0 +1,93 @@
+
+
+
+.login_home span{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.row_fight{
+    border: 1px solid #ECECEC;
+}
+
+.row_fight2{
+    border: 1px solid #ECECEC;
+    margin-top: 20px;
+}
+
+
+
+/*  /////////////////////   */
+
+
+.info_input input {
+    width: 338px;
+    padding: 15.19px 13px 12.19px 13px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px solid #E9E9E9;
+
+}
+
+.info_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+form {
+    width: 380px;
+    height: 403.75px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 0 30px;
+
+}
+
+.info_input {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 14px 0 25px 0;
+}
+
+.info_radio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info_button button {
+    width: 80.11px;
+    padding: 11.59px 20.68px 12.41px 21px;
+    border-radius: 5px;
+    background: #F53E32;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: .2s linear;
+
+}
+
+.info_button button:hover {
+    background: #3BB77E;
+    transform: scale(1.07);
+}
+
+/* @media only screen and (max-width: 450px){
+    .form{
+        width: 370px;
+    }
+} */

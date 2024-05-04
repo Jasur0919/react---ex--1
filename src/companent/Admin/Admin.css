@@ -1,0 +1,157 @@
+.admin{
+    padding: 100px 0;
+}
+
+.admin__card{
+    h2{
+        color:#3BB77E ;
+    }
+    h1{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 57.6px;
+        margin: 51px 0;
+    }
+    p{
+        max-width: 405px;
+        line-height: 24px;
+        color: #7E7E7E;
+
+    }
+}
+
+.admimn__cards{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin-bottom: 50px;
+}
+.div{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin: 100px 0 0 10px;
+}
+
+.locat__card{
+    h2{
+        color: #3BB77E;
+    }
+    p{
+        color: #7E7E7E;
+    }
+    button{
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #3BB77E;
+        border: 1px solid #3BB77E;
+        border-radius: 5px;
+        color:#fff;
+        gap: 10px;
+        svg{
+            font-size: 20px;
+        }
+    }
+}
+
+.locations{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.form__content{
+    input{
+        border: 1px solid gray;
+        width: 423.22px;
+        height: 64px;
+        padding: 0px 3px 0px 21px;
+        border-radius: 10px 0px 0px 0px;
+        border: 1px solid #ECECEC;
+        outline: none;
+    }
+    span{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    div{
+        display: flex;
+        gap: 20px;
+    }
+}
+.input{
+    width: 890.44px !important;
+    height: 200px !important;
+    border-radius: 10px 0px 0px 0px;
+    border: 1px solid #ECECEC;
+    margin-top: 20px;
+}
+.form__title{
+    h2{
+        color: #3BB77E;
+    }
+}
+
+.form__df{
+    display: flex;
+    gap: 50px;
+}
+.form__title{
+    button{
+        background: #253D4E;
+       padding: 10px 20px;
+       border: 1px solid #253D4E;
+       border-radius: 5px;
+       color: #fff;
+       margin-bottom: 50px;
+    }
+}
+.png{
+    width: 100%;
+}
+@media (max-width:1400px) {
+    .form__df{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:970px) {
+  .form__content div{
+    display: flex;
+    flex-direction: column;
+  }
+  .admimn__cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+}
+@media (max-width:870px) {
+    .input{
+        width: 600px !important;
+      }
+      .locations{
+        display: flex;
+        flex-direction: column;
+      }
+
+}
+@media (max-width:650px) {
+    .input{
+        width: 320px !important;
+      }
+      .form__content{
+        input{
+            width: 320px;
+        }
+      }
+      .admimn__cards div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+}
