@@ -183,12 +183,12 @@ a {
 
 
 
-
+/* 
 .row_second {
   border: 1px solid rgb(231, 231, 231);
   box-shadow: 0 0 4px rgb(235, 232, 232);
   margin: 48px 0 14px 0;
-}
+} */
 
 
 /*    H  E A D E R   L A S T */ 
@@ -199,6 +199,7 @@ a {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-top: 15px;
 }
 
 .header_last_box_category_span {

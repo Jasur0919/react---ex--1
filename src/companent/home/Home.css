@@ -297,6 +297,7 @@
     border-radius: 15px;
     border: 1px solid #7E7E7E;
     padding-bottom: 20px;
+    overflow: hidden;
   }
   
   .product_card_button_1 {
@@ -315,6 +316,13 @@
     width: 230px;
     height: 230px;
     margin: auto;
+    transition: .3s linear;
+    text-align: center;
+    margin-left: 20px;
+
+  }
+  .product_card_img_api:hover {
+    transform: scale(1.06) !important;
   }
   
   .product_card_texts {
