@@ -114,7 +114,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 16px;
     flex-wrap: wrap;
 }
 
@@ -734,6 +733,7 @@
 @media only screen and (max-width: 1571px){
     .food_cards{
         justify-content: center;
+        gap: 18px;
     }
 }
 @media only screen and (max-width: 1489px){
